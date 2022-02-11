@@ -16,6 +16,9 @@ $data = [
 ];
 
 
-
+//serving a random fact
 echo json_encode($data[array_rand($data, 1)]);
+
+//serving all of them
+// echo json_encode($data);
 ?>
